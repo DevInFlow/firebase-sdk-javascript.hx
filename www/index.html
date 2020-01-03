@@ -1,0 +1,37 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>firebase test</title>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-storage.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBuS7RJwcXAeesFEmU8VUavPaY1MmDbNZM",
+    authDomain: "devinflow.firebaseapp.com",
+    databaseURL: "https://devinflow.firebaseio.com",
+    projectId: "devinflow",
+    storageBucket: "devinflow.appspot.com",
+    messagingSenderId: "15392657867",
+    appId: "1:15392657867:web:7dd39fb9ba0d2641be664e",
+    measurementId: "G-4YZLR8B61R"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  firebase.storage();
+</script>
+   <script src="app.js"></script>
+</head>
