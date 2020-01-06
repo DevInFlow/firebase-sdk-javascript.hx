@@ -1,0 +1,16 @@
+{
+	"name": "firebase-sdk-javascript.hx",
+	"license": "MIT",
+	"tags": ["extern"],
+	"description": "Firebase Javascript SDK haxe externs",
+	"contributors": [
+    	"varadig"
+	],
+	"releasenote": "",
+	"version": "0.0.1",
+	"url": "https://github.com/DevInFlow/firebase-sdk-javascript.hx",
+	"classPath": "src",
+
+	"dependencies": { 
+	}
+}
